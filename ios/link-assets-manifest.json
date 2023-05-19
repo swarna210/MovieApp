@@ -1,0 +1,645 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-Black.ttf",
+      "sha1": "a580c79eea0b393125cbaafe7b8181beb8bf0ce5"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-BlackItalic.ttf",
+      "sha1": "1b0c882ef594426a0c756df195e0cabea2289958"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-Bold.ttf",
+      "sha1": "2216b788019110dfa1656489c9dd6e9f828af752"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-BoldItalic.ttf",
+      "sha1": "37f15e7a2347e25865251d22c4de90614ccdcd31"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-ExtraBold.ttf",
+      "sha1": "c4139151f6563a265db42f6d08ff647cb712a43c"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-ExtraBoldItalic.ttf",
+      "sha1": "87e11ecc67470bd8c3c1043a8c5bb07f9bcbca65"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-ExtraLight.ttf",
+      "sha1": "7d35e9b049d91116ddf5f00c3dc483868b027254"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-ExtraLightItalic.ttf",
+      "sha1": "f5bb399095be6bed5375301d3e316812ba912f78"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-Italic.ttf",
+      "sha1": "9b2009e78f04897678ab31d14199126b513b8339"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-Light.ttf",
+      "sha1": "446f74536a13e9ced9e7dc4af0548b81ae2f1e00"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-LightItalic.ttf",
+      "sha1": "21f20dd045f61b6c1a42648bfd753601b9a5a75f"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-Medium.ttf",
+      "sha1": "3e2b5e230e875caa98ac8e7f325c74403687c9d9"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-MediumItalic.ttf",
+      "sha1": "9432b124cdfec2031595777d279ed3628d48692f"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-Regular.ttf",
+      "sha1": "f7d257731cf07a2c2e2649316ddc52867c69bad8"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-SemiBold.ttf",
+      "sha1": "ae5c9eb3c7552a30c88cd6f70925beb83e04df58"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt-SemiBoldItalic.ttf",
+      "sha1": "64c3cf8255be644a809b413ed315c4f5d09d81f1"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-Black.ttf",
+      "sha1": "39f268fe46a1fecdc244bcc6ed2051fd7b10fed1"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-BlackItalic.ttf",
+      "sha1": "874cf3bb6246cdc80953f5446e5ec1d3dd72051e"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-Bold.ttf",
+      "sha1": "8e2e1e029723bd33f396a3cd875528e8e5e60dd9"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-BoldItalic.ttf",
+      "sha1": "f408b69558a741f64badceec66a727e43af3acf2"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-ExtraBold.ttf",
+      "sha1": "c5ca5d99d3fc1a0c761370c68b7d1a27ebd9fbd9"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-ExtraBoldItalic.ttf",
+      "sha1": "9bace02759e1f81416599c9f0558a26d79ae0841"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-ExtraLight.ttf",
+      "sha1": "2eca337553b268956710e065fc7f490182e7a088"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-ExtraLightItalic.ttf",
+      "sha1": "dd23f26f1c8e1162200db234186924f566678158"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-Italic.ttf",
+      "sha1": "825cf41d38f39c56e99643b1263c37b5e3a8509b"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-Light.ttf",
+      "sha1": "de87a852d4e93a7fb4865f01effc3482434f2eda"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-LightItalic.ttf",
+      "sha1": "660e45dce79c94edda58045296a4eaa6c955a98f"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-Medium.ttf",
+      "sha1": "5733578eb9ed5bf9f47699520be67776914e8490"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-MediumItalic.ttf",
+      "sha1": "b315634ff662587a6574ab4de240440fbb049586"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-Regular.ttf",
+      "sha1": "c73d961736d766385c78a6ccffd76e1709779607"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-SemiBold.ttf",
+      "sha1": "bb973bcb656a30323edf6526b4d034cd317cff2d"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Condensed-SemiBoldItalic.ttf",
+      "sha1": "c1fe8e7e7c8a188a237d6773fc8b6cde94c42fe2"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-Black.ttf",
+      "sha1": "99a4f99423cbe34ca070f09ede2d9e295c790bfe"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-BlackItalic.ttf",
+      "sha1": "1ba6edd37acbdbf3258ffa2724b284f637f3f07f"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-Bold.ttf",
+      "sha1": "d88628621f241723c1adae511847fe76b4c6a5c6"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-BoldItalic.ttf",
+      "sha1": "e8c5c6624527d33a95546cabc6e4bcade994f217"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-ExtraBold.ttf",
+      "sha1": "b4abcfdf0f4165dbd476410cb1eb5464ca43df29"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-ExtraBoldItalic.ttf",
+      "sha1": "6330b8089f6f8e9136059004533ec7184fffbe84"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-ExtraLight.ttf",
+      "sha1": "a7302a325bffa46da37bd0d6c96efb194d5def25"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-ExtraLightItalic.ttf",
+      "sha1": "db4e86f795a010763844977e4b800a26e78123fd"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-Italic.ttf",
+      "sha1": "fcc6fb8f04a883e81d433c78c8d463a7ad7709af"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-Light.ttf",
+      "sha1": "6e6992aaba88f38caeab5224feb54b07e372b0ee"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-LightItalic.ttf",
+      "sha1": "fc475037a99a36ecdb20c83d4c9f043c49f126f8"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-Medium.ttf",
+      "sha1": "0eb4ed35148b86c08f4d516e7374e06977b0b6b4"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-MediumItalic.ttf",
+      "sha1": "44cc1455ebaa61074528569272e536c93af01d89"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-Regular.ttf",
+      "sha1": "b3f0071f493da36dbd73e70d70a80acab28e13dc"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-SemiBold.ttf",
+      "sha1": "81f9a701a524d2aa88329310d7f51255fb69f796"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_Expanded-SemiBoldItalic.ttf",
+      "sha1": "a2095f5d542081d2c163d66b786102732313a9d0"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-Black.ttf",
+      "sha1": "ae466e3b19caf429f2836e22621b2e5bd5027ef1"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-BlackItalic.ttf",
+      "sha1": "538a41b075c77a61442eaf3c5155551926bb47db"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-Bold.ttf",
+      "sha1": "389f1b76713b5ff3a0c21935746d7c0274c7c6e8"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-BoldItalic.ttf",
+      "sha1": "1ad71b6d470e09a0fa602d4319fa2ee694e1fed9"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-ExtraBold.ttf",
+      "sha1": "beecfa7cefc0ee179e826be01e41739a6c73a889"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-ExtraBoldItalic.ttf",
+      "sha1": "ffb59f0617847f8317d137d8eb52434104f97e19"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-ExtraLight.ttf",
+      "sha1": "846e9e9f9caae7bb4752ae55ef4f984953e5784b"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-ExtraLightItalic.ttf",
+      "sha1": "ce22625ebdba67e6b8b4253cea5e9ffac5124944"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-Italic.ttf",
+      "sha1": "5d3303344cbcdb034efdddcccd1fea8dc30bae61"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-Light.ttf",
+      "sha1": "74c17112485608d4933138b17bc3410c040d7222"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-LightItalic.ttf",
+      "sha1": "814d693567b98e4b943b96388a7875e714751c33"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-Medium.ttf",
+      "sha1": "4d48b97c956241324a725d820c5b9457d377263a"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-MediumItalic.ttf",
+      "sha1": "483b71ba16e9e8d72c2bf7ca114f20ed529a58f7"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-Regular.ttf",
+      "sha1": "9d6fe81be865598de69b238256cf631185b6b306"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-SemiBold.ttf",
+      "sha1": "34c9576ae08c021bcb0491c2835d4b608c6a9ab1"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed-SemiBoldItalic.ttf",
+      "sha1": "1e1491f0bf1b43ade94eca838f49d50b25da9280"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-Black.ttf",
+      "sha1": "cce401295d95252a800421252b3460975738d44a"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-BlackItalic.ttf",
+      "sha1": "44b30ce820f4a58fd2fca26ed69a8868076dba33"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-Bold.ttf",
+      "sha1": "2b437923583ab6d3d5fe7ce76a121e095ad20712"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-BoldItalic.ttf",
+      "sha1": "6afb0cc89d1114be1749550e785ffbeb4886be42"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-ExtraBold.ttf",
+      "sha1": "0fcbbcca53bf1cd87de7d81645b4b16f58876ba3"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-ExtraBoldItalic.ttf",
+      "sha1": "6721051225aaccad05ecb851eb596da0d4a4b751"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-ExtraLight.ttf",
+      "sha1": "df22f95715b4d6eb5bae1358cf7e484cff3ec42c"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-ExtraLightItalic.ttf",
+      "sha1": "99c14619ab256ea919f7d4c868a740388395d7d0"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-Italic.ttf",
+      "sha1": "39f3d333e36f5d928a7f8b5aaf6a02562ae96658"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-Light.ttf",
+      "sha1": "5820163eb23ec6809d2b857fc2c588ce26198870"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-LightItalic.ttf",
+      "sha1": "3e557a9c0e69b95b62b1c7dcfacd032e69da8377"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-Medium.ttf",
+      "sha1": "535df5c1889ab9315ce7d36992dc05d18a392ffc"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-MediumItalic.ttf",
+      "sha1": "4746ad13a05ffabbe800892bcac7405d0eab63c3"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-Regular.ttf",
+      "sha1": "6be4bf3d6c204f642e4fb9e51b3c70798846d79c"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-SemiBold.ttf",
+      "sha1": "1493abe7b6d000f42f980d1bc612ad243e26caf2"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_10pt_SemiExpanded-SemiBoldItalic.ttf",
+      "sha1": "5b55decedc424c8cd237fd588a20f97d85513c28"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-Black.ttf",
+      "sha1": "386473a4ff8d32c5691e03d1a74ee770917e703b"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-BlackItalic.ttf",
+      "sha1": "c65a7f5b6bb3cd80f529d2bed6a211d0ed466939"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-Bold.ttf",
+      "sha1": "b6cd9b8c7fd2f55628351348ff25f9a80ca0c2bc"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-BoldItalic.ttf",
+      "sha1": "8be7b636785684e8be3dfc4c9cf1875b064f0f61"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-ExtraBold.ttf",
+      "sha1": "b4a495fb31e325727e938ec657ad09940d15f587"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-ExtraBoldItalic.ttf",
+      "sha1": "8f435b68ae6ee33d4c8384344289954bf54e8d22"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-ExtraLight.ttf",
+      "sha1": "68456c9d0522dde628863912fd852bae30f2dbcb"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-ExtraLightItalic.ttf",
+      "sha1": "ddd3f3487eb153ac5f00c90359347d64eba602f0"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-Italic.ttf",
+      "sha1": "e0ed56a2bc8e9fb970ec8f0409ad1c9ce9c96667"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-Light.ttf",
+      "sha1": "85cf68d3a99d7146fdae82ef3c5028487fdd9c76"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-LightItalic.ttf",
+      "sha1": "00f2888f9b2ac2759a2534c433de5bcb39f59a01"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-Medium.ttf",
+      "sha1": "5acce5794858d83febf973bce0645d87832f51ac"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-MediumItalic.ttf",
+      "sha1": "3a8fc6b19961ee23e029fb43afbe3d208788aeef"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-Regular.ttf",
+      "sha1": "c7a06a8f1f8ed3afdb1794a0472cb61a2a89606c"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-SemiBold.ttf",
+      "sha1": "d74ddfcc63012492bd099cabf8c38745219f923c"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt-SemiBoldItalic.ttf",
+      "sha1": "ff9fac4b102c788abd756efa67ad52e1b7013d64"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-Black.ttf",
+      "sha1": "b41862f9eed7d73d8b999e7056044730353b7d93"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-BlackItalic.ttf",
+      "sha1": "c89fec2fbe9bb810b5eed8222bad3e22e787f9df"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-Bold.ttf",
+      "sha1": "21d4f197473e3c6e703f9cd0828ddafa55f128df"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-BoldItalic.ttf",
+      "sha1": "74a52cd522157811568f845b9ac99a8c28321a0a"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-ExtraBold.ttf",
+      "sha1": "e82fb72e188d2de07af0d8cdba1ccf62a219453a"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-ExtraBoldItalic.ttf",
+      "sha1": "788dca5e0c635fcbdb79ef0a0ac91d5a2def2072"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-ExtraLight.ttf",
+      "sha1": "b3daafbea1abfc16c5fe0b4c169b3e88f517ff48"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-ExtraLightItalic.ttf",
+      "sha1": "06d1e9fd0f8acf1dc86c9543f66adb33282531f7"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-Italic.ttf",
+      "sha1": "6d81e41ed87fc0c715deeeb5826a2c10379b869e"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-Light.ttf",
+      "sha1": "d2552931d195ebb6e89b27af3636c7cd7712ae3c"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-LightItalic.ttf",
+      "sha1": "82014ddead76bfd753cab32798d127e36da0ed88"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-Medium.ttf",
+      "sha1": "b37d8aad6a5ec1dbcf1ee37f4619504f2591693a"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-MediumItalic.ttf",
+      "sha1": "4c1ae2ba0f21d73fceed5c63dac424e74d886926"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-Regular.ttf",
+      "sha1": "0c1c0c27728f62f5ab14734a8276cae6c745c60c"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-SemiBold.ttf",
+      "sha1": "a1c897ee3833ced28c8b05bee9762f312e628555"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-SemiBoldItalic.ttf",
+      "sha1": "2dafffccd4254f51421b89c12fe5c6a00c149df0"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-Black.ttf",
+      "sha1": "eba628b950a59aefe8116092d5145f8367964cbb"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-BlackItalic.ttf",
+      "sha1": "11d777b574b23e031f749d02f0a0f5ac06355671"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-Bold.ttf",
+      "sha1": "74d433b722e2053a8b4b32ba9eec43485feb7da7"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-BoldItalic.ttf",
+      "sha1": "526dc727d97b3a6283e1e80d84811341ac15bd13"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-ExtraBold.ttf",
+      "sha1": "937ebe103dd8aa4aa8037cd6ce3f64f2628f4393"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-ExtraBoldItalic.ttf",
+      "sha1": "a922c83d3165662934c6caa664caadc703412fb4"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-ExtraLight.ttf",
+      "sha1": "758475952ef4db704b7860ea8e1388776b65a3f5"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-ExtraLightItalic.ttf",
+      "sha1": "9ed062e395abe30981da17456ec6f1c575f7028a"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-Italic.ttf",
+      "sha1": "26197d9459602b711c3a89e63e9cb01d25aa2aa7"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-Light.ttf",
+      "sha1": "91ea0bf8d60ccb7290ccb1c6fae750b009bab25c"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-LightItalic.ttf",
+      "sha1": "40d3304307cf7c208c2bcf875d0a5b59932b72a8"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-Medium.ttf",
+      "sha1": "f728ca121285634dbddb094d409b0efcd7c9d7be"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-MediumItalic.ttf",
+      "sha1": "5b4553a923d598d667f2b184d10196da694f83a1"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-Regular.ttf",
+      "sha1": "9e5e7ecfa24cf50586d4fde95bd00390155a1485"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-SemiBold.ttf",
+      "sha1": "3e75e9ce6715dd793edb81da7dbab01b11663c82"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_Expanded-SemiBoldItalic.ttf",
+      "sha1": "a5700d12fe84afbe3cc3ebb33c1ee2944bdc462f"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-Black.ttf",
+      "sha1": "5ae31a99aa47e1e0cbc957f68d7a58e5d3414027"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-BlackItalic.ttf",
+      "sha1": "7c105c752eb06e830ec6d827aa2a5cd46ed01117"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-Bold.ttf",
+      "sha1": "52efc55431feb80b819d71f14c08bb61f7cbe27b"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-BoldItalic.ttf",
+      "sha1": "f95fbaf77978dee5e09e89d56e64fe71e8619656"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-ExtraBold.ttf",
+      "sha1": "0191c94b574f2daf4efcd0043c7064a8f0136aca"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-ExtraBoldItalic.ttf",
+      "sha1": "10ced0d33eebee4c126a2c3eda83c43442011ab1"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-ExtraLight.ttf",
+      "sha1": "30dd05c8fdb5f45168218a2b1626110858dd2faa"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-ExtraLightItalic.ttf",
+      "sha1": "117304bdf66536a27e461787e9d11a8600895811"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-Italic.ttf",
+      "sha1": "eca5c2587b6417822dd66b2a035b9122c7b979fd"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-Light.ttf",
+      "sha1": "7785d72571dab87c8688f8dbf98ddf7f05b5ee9b"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-LightItalic.ttf",
+      "sha1": "7afd94f98e80b3dae0964893f30c5f5eef0bfbe9"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-Medium.ttf",
+      "sha1": "22a686ac7702074a4cc6eaa16230f4dde4becfce"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-MediumItalic.ttf",
+      "sha1": "fd5a1c2dacd9898e6d42f60ef05c5e310f2f9865"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-Regular.ttf",
+      "sha1": "6c2f8ce72e6f0b4eaf248f449b6b53fff40fcd41"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-SemiBold.ttf",
+      "sha1": "c4da30358dbe8613452dd34ea4536f65e67a83ba"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiCondensed-SemiBoldItalic.ttf",
+      "sha1": "49225b64d0390157933cfd06bf481cf9769a42ec"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-Black.ttf",
+      "sha1": "9b418e13701396a63a3ef156fa44594f8ceb764d"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-BlackItalic.ttf",
+      "sha1": "1ab909091a85c5ae701cc0ddf29525c660301d27"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-Bold.ttf",
+      "sha1": "b004b51e8f4d861b2012c275bbf9e6b77136d6a0"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-BoldItalic.ttf",
+      "sha1": "b6e96a967562f8a8ba6621195334c60a9019e3ae"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-ExtraBold.ttf",
+      "sha1": "54e55b024093f68d7174d725e0fe8fc1cc76f5e6"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-ExtraBoldItalic.ttf",
+      "sha1": "4195c37040fd07bd65c3c22f611f7026825bf49c"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-ExtraLight.ttf",
+      "sha1": "89f6788c842af8903bb3b4990ce7ea7909add1e3"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-ExtraLightItalic.ttf",
+      "sha1": "25c7572b1a4fe34072e58ae102aac3915bb178a2"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-Italic.ttf",
+      "sha1": "0f1fd77d8b8d26b801e4417f1e3e7e31ca1c755a"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-Light.ttf",
+      "sha1": "e21a215710f4e5d011f764e36afbf6ae0df0003c"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-LightItalic.ttf",
+      "sha1": "d3ad5227d684529c71ab62353bc01e9b81a9b375"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-Medium.ttf",
+      "sha1": "aef159dd2fe2135a9964c941e8d664ac9464313a"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-MediumItalic.ttf",
+      "sha1": "ba87f8a36ecc6ff24d5cda1db15ccac772950b5a"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-Regular.ttf",
+      "sha1": "ac01965c894843671b9d03bd03906425ed0a57e9"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-SemiBold.ttf",
+      "sha1": "1dc7181f7470f61e723676de56a13885e74f7f16"
+    },
+    {
+      "path": "assets/fonts/Nunito_Sans/NunitoSans_7pt_SemiExpanded-SemiBoldItalic.ttf",
+      "sha1": "1fa86a642f28b9ea8c21881841745176ca8d564d"
+    }
+  ]
+}
