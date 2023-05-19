@@ -18,12 +18,14 @@ const HomeScreen =()=> {
 
   
   useEffect(()=>{
-    getUpComingMovies().then((movieResponse) => setUpComingMovies(movieResponse.data))
+    
+
+      getNowPlayingMovies().then((movieResponse) => setNowPlayingMovies(movieResponse.data))
       .catch((error) => {
         console.log("error is",error)
       })
 
-      getNowPlayingMovies().then((movieResponse) => setNowPlayingMovies(movieResponse.data))
+      getUpComingMovies().then((movieResponse) => setUpComingMovies(movieResponse.data))
       .catch((error) => {
         console.log("error is",error)
       })

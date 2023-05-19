@@ -5,7 +5,7 @@ const TMDB_IMAGE_BASE_URL = 'https://image.tmdb.org/t/p'
 
 
 
-const TMDB_API_KEY = "e3c66584508cdd5eabf16194f024f501";
+const TMDB_API_KEY = "e3c66584508cdd5eabf16194f024f501"
 
 
 const ENDPOINTS = {

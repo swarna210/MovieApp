@@ -27,12 +27,9 @@ const MovieCard =({title,language,voteAverage,voteCount,poster,size,heartless})=
                     <TouchableNativeFeedback
                     onPress={() => {
                       setLiked(!liked);
-
-
-
-                    //   setVoteCountValue(
-                    //     liked ? voteCountValue - 1 : voteCountValue + 1
-                    //   );
+                      setVoteCountValue(
+                        liked ? voteCountValue - 1 : voteCountValue + 1
+                      );
                     }}
                   >
                         <FontAwesome
@@ -60,7 +57,7 @@ const MovieCard =({title,language,voteAverage,voteCount,poster,size,heartless})=
                         color={colors.HEART}
                         style={{ marginRight: 5 }}
                         />
-                        <Text style={styles.movieSubTitle}>{voteCount}</Text>
+                        <Text style={styles.movieSubTitle}>{voteCountValue}</Text>
                     </View>
                     </View>
 
