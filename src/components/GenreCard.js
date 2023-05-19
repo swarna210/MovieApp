@@ -1,7 +1,7 @@
 import React  from "react";
 import {Text,ScrollView, StyleSheet,View,FlatList ,Dimensions,TouchableOpacity} from 'react-native'
 import colors from '../constants/colors'
-
+import fonts from "../constants/fonts";
 
 const {height,width} = Dimensions.get('screen')
 const setWidth = (w)=>(width/100) * w
@@ -35,7 +35,8 @@ const styles = StyleSheet.create({
     },
     genreText:{
         fontSize:13,
-        color:colors.ACTIVE
+        color:colors.ACTIVE,
+        fontFamily:fonts.ExtraBold
     }
 
     

@@ -1,11 +1,11 @@
 
 export default {
-    Regular:'NunitoSans_Regular',
-    Bold:'NunitoSans_Bold',
-    Black:'NunitoSans_Black',
-    ExtraBold:'NunitoSans_ExtraBold',
-    ExtraLight:'NunitoSans_ExtraLight',
-    Light:'NunitoSans_Light',
-    SemiBold:'NunitoSans_SemiBold'
+    Regular:'NunitoSans_7pt_Condensed-Regular',
+    Bold:'NunitoSans_7pt_Condensed-Bold',
+    Black:'NunitoSans_7pt_Condensed-Black',
+    ExtraBold:'NunitoSans_7pt_Condensed-ExtraBold',
+    ExtraLight:'NunitoSans_7pt_Condensed-ExtraLight',
+    Light:'NunitoSans_7pt_Condensed-Light',
+    SemiBold:'NunitoSans_7pt_Condensed-Bold'
 
 } 
