@@ -10,12 +10,14 @@ const setWidth = (w)=>(width/100) * w
 const GenreCard = ({genreName,active,onPress}) =>{
     return(
         <TouchableOpacity 
-                style={{ 
-                    ...styles.container,
-                    backgroundColor:active?colors.ACTIVE:colors.WHITE 
-                }}
-                activeOpacity={0.5}
-                onPress={()=>onPress(genreName)}>
+        style={{
+            ...styles.container,
+            backgroundColor: active ? colors.ACTIVE : colors.WHITE,
+          }}
+          activeOpacity={0.5}
+          onPress={() => onPress(genreName)}
+                >
+
             <Text style={{ ...styles.genreText ,color:active ?colors.WHITE:colors.BLACK}}>{genreName}</Text>
         </TouchableOpacity>
     )

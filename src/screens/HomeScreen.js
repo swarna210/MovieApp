@@ -14,7 +14,7 @@ const HomeScreen =({navigation})=> {
 
   const [nowPlayingMovies,setNowPlayingMovies] =useState({})
   const [upComingMovies,setUpComingMovies] = useState({})
-  const [genre,setGenre] = useState([{id:10110,name:'All'}])
+  const [genres, setGenres] = useState([{ id: 10110, name: "All" }]);
 
   
   useEffect(()=>{
@@ -31,7 +31,7 @@ const HomeScreen =({navigation})=> {
       })
 
       getAllGenres().then((genreResponse) =>
-      setGenre([...genre, ...genreResponse.data.genre])
+      setGenres([...genres, ...genreResponse.data.genres])
     );
 
                     
@@ -46,7 +46,7 @@ const HomeScreen =({navigation})=> {
     //   })
 
 
-  const genres =['All',"horror","romantic",'drama','sc-fi','comedy']
+  // const genres =['All',"horror","romantic",'drama','sc-fi','comedy']
 // console.log(nowPlayingMovies)
   return(
     <ScrollView style={styles.container}>
@@ -55,16 +55,19 @@ const HomeScreen =({navigation})=> {
       <Text style={styles.headerSubTitle}>View All</Text>
     </View>
     <View style={styles.genreListContainer}>
-      <FlatList data={genre} 
+      <FlatList data={genres} 
                 horizontal
                 keyExtractor={(item)=>item.id.toString()} 
                 showsHorizontalScrollIndicator={false}
                 ItemSeparatorComponent={()=><ItemSeparator width={20}/>}
                 ListHeaderComponent={()=> <ItemSeparator width={20}/>}
                 ListFooterComponent={()=> <ItemSeparator width={20}/>}
-                renderItem={({item,index}) =>  <GenreCard genreName={item.name}
-                active={item.name === activeGenre ?true:false}
-                onPress={setActiveGenre}/>
+                renderItem={({item,index}) => 
+                 <GenreCard 
+                 genreName={item.name}
+                 active={item.name === activeGenre ? true : false}
+                 onPress={setActiveGenre}
+                  />
       }/>
     </View>
     <View>

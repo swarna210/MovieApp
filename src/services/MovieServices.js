@@ -1,15 +1,11 @@
-// const axios = require("axios").default;
-// import {
-//     TMDB_BASE_URL,
-//     TMDB_BASE_IMAGE_URL,
-//     TMDB_API_KEY , 
-//     END_POINTS
+
 const axios = require("axios").default;
 import {
   TMDB_BASE_URL,
   TMDB_API_KEY,
   TMDB_IMAGE_BASE_URL,
   ENDPOINTS,
+  YOUTUBE_BASE_URL
   
 } from "../constants/urls";
 import LANGUAGES from '../constants/languages'
@@ -29,19 +25,23 @@ const getNowPlayingMovies = () =>
   const getAllGenres= () =>
   TMDB_HTTP_REQUEST.get(ENDPOINTS.GENRES);
 
-  const getMovieById = (movieId) => 
-  TMDB_HTTP_REQUEST.get(`${ENDPOINTS.MOVIE}/${movieId}`);
+  const getMovieById = (movieId,append_to_response="") => 
+  TMDB_HTTP_REQUEST.get(`${ENDPOINTS.MOVIE}/${movieId}`,append_to_response ? {params:{append_to_response}} :null );
 
   const getPoster = (path) => `${TMDB_IMAGE_BASE_URL}/original${path}`;
+
+  const getVideo = (key) => `${YOUTUBE_BASE_URL}?v=${key}`;
+
   const getLanguage = (language_iso) =>
   LANGUAGES.find((language) => language.iso_639_1 === language_iso);
 
 
-export {
+export {  
   getNowPlayingMovies,
   getPoster,
   getLanguage,
   getMovieById,
   getUpComingMovies ,
-  getAllGenres
+  getAllGenres,
+  getVideo
 };
