@@ -9,7 +9,7 @@ import {getNowPlayingMovies,getUpComingMovies,getAllGenres } from '../services/M
 import axios from 'axios'
 
 
-const HomeScreen =()=> {
+const HomeScreen =({navigation})=> {
   const [activeGenre,setActiveGenre] =useState("All")
 
   const [nowPlayingMovies,setNowPlayingMovies] =useState({})
@@ -84,6 +84,7 @@ const HomeScreen =()=> {
               voteCount={item.vote_count}
               poster={item.poster_path}
               heartless={false}
+              onPress={()=> navigation.navigate("Movie",{movieId:item.id})}
             />
           )}
         />
@@ -109,6 +110,7 @@ const HomeScreen =()=> {
               voteCount={item.vote_count}
               poster={item.poster_path}
               size={0.6}
+              onPress={()=> navigation.navigate("Movie",{movieId:item.id})}
             />
           )}
         />

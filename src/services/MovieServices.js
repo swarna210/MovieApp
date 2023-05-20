@@ -29,6 +29,9 @@ const getNowPlayingMovies = () =>
   const getAllGenres= () =>
   TMDB_HTTP_REQUEST.get(ENDPOINTS.GENRES);
 
+  const getMovieById = (movieId) => 
+  TMDB_HTTP_REQUEST.get(`${ENDPOINTS.MOVIE}/${movieId}`);
+
   const getPoster = (path) => `${TMDB_IMAGE_BASE_URL}/original${path}`;
   const getLanguage = (language_iso) =>
   LANGUAGES.find((language) => language.iso_639_1 === language_iso);
@@ -38,6 +41,7 @@ export {
   getNowPlayingMovies,
   getPoster,
   getLanguage,
+  getMovieById,
   getUpComingMovies ,
   getAllGenres
 };
