@@ -57,7 +57,8 @@ const MovieScreen = ({route,navigation}) => {
           <Text style={styles.headerText}>Share</Text>
         </TouchableOpacity>
       </View>
-      <TouchableOpacity style={styles.playButton} onPress={()=>Linking.openURL(getVideo(movie.videos.results[0].key))}>
+      <TouchableOpacity style={styles.playButton}  onPress={() => Linking.openURL(getVideo(movie.videos.results[0].key))}
+      >
           <Ionicons name='play-circle-outline' size={70} color={colors.WHITE}/>
       </TouchableOpacity>
       <ItemSeparator height={setHeight(1)}/>
