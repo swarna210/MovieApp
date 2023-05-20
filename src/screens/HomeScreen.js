@@ -45,7 +45,7 @@ const HomeScreen =({navigation})=> {
       <Text style={styles.headerSubTitle}>View All</Text>
     </View>
     <View style={styles.genreListContainer}>
-      <FlatList data={genres} 
+      <FlatList data={ genres } 
                 horizontal
                 keyExtractor={(item)=>item.id.toString()} 
                 showsHorizontalScrollIndicator={false}
@@ -56,7 +56,7 @@ const HomeScreen =({navigation})=> {
                  <GenreCard 
                  genreName={item.name}
                  active={item.name === activeGenre ? true : false}
-                 onPress={{ ...setActiveGenre, }}
+                 onPress={setActiveGenre}
                   />
       }/>
     </View>
