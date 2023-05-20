@@ -1,5 +1,6 @@
 import React ,{useState} from "react";
-import {Text,ScrollView, StyleSheet,View,FlatList ,Dimensions,TouchableOpacity, ImageBackground, Image, TouchableNativeFeedback} from 'react-native'
+import {Text,ScrollView, StyleSheet,View,FlatList ,Dimensions,
+    TouchableOpacity, ImageBackground, Image, TouchableNativeFeedback ,ActivityIndicator} from 'react-native'
 import colors from "../constants/colors";
 import FontAwesome from 'react-native-vector-icons/FontAwesome'
 import Ionicons from 'react-native-vector-icons/Ionicons'
@@ -19,14 +20,18 @@ const MovieCard =({
                 })=>{
     const [liked,setLiked] = useState(false)
     const[voteCountValue,setVoteCountValue] = useState(voteCount)
-    // console.log(poster)
+    const [loading, setLoading] = useState(true);
     return(
         <TouchableOpacity activeOpacity={0.8} onPress={onPress}>
-                <ImageBackground
-        style={{... styles.container,width : 230 *size ,height:340*size}}
-        imageStyle={{ borderRadius: 12 }}
-        source={{ uri: getPoster(poster) }}
-      >
+             {/* {loading ?
+             <ActivityIndicator size={'large'}/>:
+          (<> */}
+       <ImageBackground
+                style={{... styles.container,width : 230 *size ,height:340*size}}
+                imageStyle={{ borderRadius: 12 }}
+                source={{ uri: getPoster(poster) }}
+            >
+
                 <View style={{ ... styles.imdbContainer ,paddingVertical:3 * size}}>
                     <Image source={images.IMDB} resizeMode="cover" 
                             style={{ ... styles.imdbImage,height:20 * size,width:50 * size }}/>
@@ -41,7 +46,7 @@ const MovieCard =({
                       );
                     }}
                   >
-                        <FontAwesome
+                    <FontAwesome
                                  name={liked ? 'heart' :'heart-o'}
                                   size={25 * size} color={liked ? colors.HEART : colors.WHITE} 
                                   style={{position:'absolute',bottom:10,left:10}}/>
@@ -52,9 +57,6 @@ const MovieCard =({
                 <Text style={{ ...styles.movieTitle ,width:230*size}} numberOfLines={3}>
                     {title}
                 </Text>
-
-                
-
             <View style={styles.movieSubTitleContainer}>
                     <Text style={styles.movieSubTitle}>
                         {getLanguage(language).english_name}
@@ -67,16 +69,11 @@ const MovieCard =({
                         style={{ marginRight: 5 }}
                         />
                         <Text style={styles.movieSubTitle}>{voteCountValue}</Text>
+                        
                     </View>
                     </View>
-
-
-
-
-
-
-
-            </View>
+            </View> 
+            {/* </> )} */}
         </TouchableOpacity>
         
     )

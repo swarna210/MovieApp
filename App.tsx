@@ -4,6 +4,8 @@ import {NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import HomeScreen from './src/screens/HomeScreen'
 import MovieScreen from './src/screens/MovieScreen'
+import DetailScreen from './src/screens/DetailScreen'
+
 // import useFonts from 'fonts'
 const Stack = createStackNavigator()
 export default function App(){
@@ -18,6 +20,11 @@ export default function App(){
                 name='Movie' 
                 component={MovieScreen}  
                 options={{ headerShown:false }}/>
+      <Stack.Screen 
+                name='Details' 
+                component={DetailScreen}  
+                options={{ headerShown:false }}/>
+              
       </Stack.Navigator>
     </NavigationContainer>
   )

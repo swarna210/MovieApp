@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import {Text,ScrollView, StyleSheet,View,FlatList,Dimensions} from 'react-native'
+import {Text,ScrollView, StyleSheet,View,FlatList,Dimensions,ActivityIndicator} from 'react-native'
 import colors from  '../constants/colors'
 import GenreCard from '../components/GenreCard'
 import MovieCard from '../components/MovieCard'
@@ -15,21 +15,21 @@ const HomeScreen =({navigation})=> {
   const [nowPlayingMovies,setNowPlayingMovies] =useState({})
   const [upComingMovies,setUpComingMovies] = useState({})
   const [genres, setGenres] = useState([{ id: 10110, name: "All" }]);
-
+  const [loading, setLoading] = useState(false);
   
   useEffect(()=>{
     
 
       getNowPlayingMovies().then((movieResponse) => setNowPlayingMovies(movieResponse.data))
-      .catch((error) => {
-        console.log("error is",error)
-      })
+
+      
+      
+      setLoading(false)
 
       getUpComingMovies().then((movieResponse) => setUpComingMovies(movieResponse.data))
       .catch((error) => {
         console.log("error is",error)
       })
-
       getAllGenres().then((genreResponse) =>
       setGenres([...genres, ...genreResponse.data.genres])
     );
@@ -38,16 +38,6 @@ const HomeScreen =({navigation})=> {
      
       
   },[])
-
-
-    // useEffect(()=> {
-    //     axios.get("https://api.themoviedb.org/3/movie/now_playing?api_key=e3c66584508cdd5eabf16194f024f501")
-    //     .then(movieResponse => setNowPlayingMovies(movieResponse.data))
-    //   })
-
-
-  // const genres =['All',"horror","romantic",'drama','sc-fi','comedy']
-// console.log(nowPlayingMovies)
   return(
     <ScrollView style={styles.container}>
     <View style={styles.headerContainer}>
@@ -66,12 +56,14 @@ const HomeScreen =({navigation})=> {
                  <GenreCard 
                  genreName={item.name}
                  active={item.name === activeGenre ? true : false}
-                 onPress={setActiveGenre}
+                 onPress={{ ...setActiveGenre, }}
                   />
       }/>
     </View>
     <View>
-    <FlatList
+      {loading ?
+      ( <ActivityIndicator size="large"/>) :(
+      <FlatList
           data={nowPlayingMovies.results}
           horizontal
           showsHorizontalScrollIndicator={false}
@@ -90,7 +82,8 @@ const HomeScreen =({navigation})=> {
               onPress={()=> navigation.navigate("Movie",{movieId:item.id})}
             />
           )}
-        />
+        /> 
+      )}
                 
     </View>
     <View style={styles.headerContainer}>

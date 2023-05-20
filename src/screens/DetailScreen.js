@@ -10,8 +10,7 @@ import {
       Dimensions,
       TouchableOpacity,
       Linking,
-      Share,
-      ActivityIndicator
+      Share
     } from 'react-native'
 import colors from '../constants/colors'
 import  {getMovieById, getPoster,getVideo,getLanguage} from '../services/MovieServices'
@@ -30,11 +29,10 @@ const setHeight = (h)=> (height/100) *h
 const setWidth = (w) => (width/100) *w
 
 
-const MovieScreen = ({route,navigation}) => {
+const DetailScreen = ({route,navigation}) => {
   const {movieId} =route.params
   const [movie,setMovie] = useState({})
   const [isCastSelected,setIsCastSelected] = useState(true)
-  const [loading, setLoading] = useState(true);
   useEffect(() => {
       getMovieById(movieId,`${AR.VIDEOS},${AR.CREDITS},${AR.RECOMMENDATIONS},${AR. SIMILAR}`).then((response) => setMovie(response.data))
   },[])
@@ -42,11 +40,6 @@ const MovieScreen = ({route,navigation}) => {
   return(
     <ScrollView  >
       <StatusBar style="light" />
-    
-      {/* <ActivityIndicator size="large"/> */}
-    
-    
-    
       <LinearGradient  colors={["rgba(0,0,0,0.5)", "rgba(217,217,217,0)"]}
                 startPoint={[0,0.3]}
                 style={styles.linearGradient}/>
@@ -110,49 +103,8 @@ const MovieScreen = ({route,navigation}) => {
                 CharacterName={isCastSelected ?  item?.character :  item?.job}
                 image={item?.profile_path}/>}/>
       </View>
-      <Text style={styles.extraListTitle}>Recommented Movies</Text>
-      <FlatList
-              data={movie?.recommendations?.results}
-              horizontal
-              showsHorizontalScrollIndicator={false}
-              keyExtractor={(item) => item?.id?.toString()}
-              ItemSeparatorComponent={() => <ItemSeparator width={20} />}
-              ListHeaderComponent={() => <ItemSeparator width={20} />}
-              ListFooterComponent={() => <ItemSeparator width={20} />}
-              renderItem={({ item }) => (
-            <MovieCard
-              title={item.title}
-              language={item.original_language}
-              voteAverage={item.vote_average}
-              voteCount={item.vote_count}
-              poster={item.poster_path}
-              size={0.6}
-              onPress={()=> navigation.navigate("Details",{movieId:item.id})}
-            />
-          )}
-        />
-          <Text style={styles.extraListTitle}>Similar Movies</Text>
-          <FlatList
-              data={movie?.similar?.results}
-              horizontal
-              showsHorizontalScrollIndicator={false}
-              keyExtractor={(item) => item?.id?.toString()}
-              ItemSeparatorComponent={() => <ItemSeparator width={20} />}
-              ListHeaderComponent={() => <ItemSeparator width={20} />}
-              ListFooterComponent={() => <ItemSeparator width={20} />}
-              renderItem={({ item }) => (
-            <MovieCard
-              title={item.title}
-              language={item.original_language}
-              voteAverage={item.vote_average}
-              voteCount={item.vote_count}
-              poster={item.poster_path}
-              size={0.6}
-              onPress={()=> navigation.navigate("Details",{movieId:item.id})}
-            />
-          )}
-        />
-      
+     
+    
     </ScrollView>
   )
 }
@@ -286,4 +238,4 @@ const styles = StyleSheet.create({
   },
   
 })
-export default MovieScreen ;
+export default DetailScreen ;
